@@ -29,6 +29,8 @@ const IndexPage = () => (
     <SecondBox>THIS IS AS TEST</SecondBox>
     <SecondBox>THIS IS AS TESTw</SecondBox>
     <SecondBox>THIS IS AS TEST-testing branch</SecondBox>
+    <SecondBox>THIS IS AS TESTanotehrng branch</SecondBox>
+    <SecondBox>THIS IS AS TEST-testing branch</SecondBox>
 
     <ButtonBox>
       <Button variant="primary">Submit</Button>
