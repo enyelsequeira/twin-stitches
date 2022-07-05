@@ -1,5 +1,6 @@
 import tw, { styled } from "twin.macro";
-import { Logo, Button, Typography } from "../components";
+import { Logo, Button, Typography, Box } from "../components";
+import { SecondBox } from "../components/Box";
 
 const Container = styled.div({
   ...tw`flex flex-col items-center justify-center h-screen`,
@@ -17,6 +18,15 @@ const IndexPage = () => (
     <Typography as="h2" variant="secondary">
       My Typography Components
     </Typography>
+
+    <Box variant="secondary" hasBackground>
+      <Typography>I am inside the Box Component</Typography>
+    </Box>
+
+    <SecondBox variant="secondary" hasBackground>
+      <Typography>I am inside the Box Component</Typography>
+    </SecondBox>
+
     <ButtonBox>
       <Button variant="primary">Submit</Button>
       <Button variant="secondary">Cancel</Button>

@@ -12,4 +12,5 @@ const Typography = styled.div({
   },
 });
 
+
 export default Typography;
