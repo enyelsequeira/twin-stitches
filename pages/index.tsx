@@ -27,6 +27,7 @@ const IndexPage = () => (
       <Typography>I am inside the Box Component</Typography>
     </SecondBox>
     <SecondBox>THIS IS AS TEST</SecondBox>
+    <SecondBox>THIS IS AS TESTw</SecondBox>
 
     <ButtonBox>
       <Button variant="primary">Submit</Button>
